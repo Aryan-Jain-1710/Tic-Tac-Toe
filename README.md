@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a graphical user interface that allows the user to play against the computer where the computer auto-generates possible movies in order to win against the user.
+This is a graphical user interface that allows the user to play tic tac toe against the computer where the computer auto-generates possible movies in order to win against the user.
 
 
 
