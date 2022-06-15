@@ -8,4 +8,4 @@ This is a graphical user interface that allows the user to play against the comp
 
 ## Repository Information
 
-The programming language used is Python. The repository consists of a single main.py python file. The libraries used include tkinter, ttkthemes, tkinter.scrolledtext, and string.
+The programming language used is Python. The repository consists of a single main.py python file. The libraries used include tkinter.
