@@ -5,9 +5,10 @@ from tkinter import simpledialog
 
 root = Tk()
 
-#FUNCTIOS: printboard, boardcopy, insertletter, spaceisFree, define letter, isWinner, playerMove, compMove, selectrandom , boardfull, mains
+#FUNCTIONS: printboard, boardcopy, insertletter, spaceisFree, define letter, isWinner, playerMove, compMove, selectrandom , boardfull, mains
 
 
+#printboard()
 def printboard():
 
     global buttons
@@ -50,6 +51,8 @@ printboard()
 
 global buttons
 
+
+#boardcopy()
 def boardcopy():
     global buttons
     root.title("TIC TAC TOE GAME")
@@ -73,21 +76,32 @@ title.place(x=35, y=-5)
 
 chars = []
 
+
+#define_button()
 def define_button(number):
     return number
 
 
+
+#insertLetter()
 def insertLetter(letter, pos):
     buttons[pos - 1].config(text=letter)
 
+
+
+#SpaceIsFree()
 def SpaceIsFree(pos):
     return buttons[pos-1]['text'] == " "
 
+
+
+#IsWinner()
 def IsWinner(bu, le):
     return (bu[0]['text'] == le and bu[1]['text'] == le  and bu[2]['text'] == le ) or (bu[3]['text'] == le and bu[4]['text'] == le and bu[5]['text'] == le) or (bu[6]['text'] == le and bu[7]['text'] == le and bu[8]['text'] == le) or (bu[0]['text'] == le and bu[3]['text'] == le and bu[6]['text'] == le) or (bu[1]['text'] == le and bu[4]['text'] == le and bu[7]['text'] == le) or (bu[2]['text'] == le and bu[5]['text'] == le and bu[8]['text'] == le) or (bu[0]['text'] == le and bu[4]['text'] == le and bu[8]['text'] == le) or (bu[2]['text'] == le and bu[4]['text'] == le and bu[6]['text'] == le)
 
 
 
+#playerMove()
 def playerMove():
     run = True
     while run:
@@ -106,6 +120,8 @@ def playerMove():
             messagebox.showerror("Error", "Please enter  a number", icon= "warning")
 
 
+
+#compMove()
 def compMove():
 
     move = 0
@@ -161,6 +177,8 @@ def compMove():
     return move
 
 
+
+#selectRandom()
 def selectRandom(list1):
     import random
     length = len(list1)
@@ -168,6 +186,8 @@ def selectRandom(list1):
     return list1[r]
 
 
+
+#isBoardfull()
 def isBoardfull():
     # if buttons[0]["text"] == " " and buttons[1]["text"] == " " and buttons[2]["text"] == " " and buttons[3]["text"] == " " and buttons[4]["text"] == " " and buttons[5]["text"] == " " and buttons[6]["text"] == " " and buttons[7]["text"] == " " and buttons[8]["text"] == " ":
     #     return False
@@ -187,6 +207,7 @@ def isBoardfull():
 
 
 
+#mains()
 def mains():
     while not(isBoardfull()):
 
