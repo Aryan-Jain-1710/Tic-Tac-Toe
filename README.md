@@ -1,8 +1,6 @@
-# Tic Tac Toe with Computer GUI
+# Tic Tac Toe
 
 A simple app that allows the user to play tic tac toe against the computer where the computer auto-generates possible movies in order to win against the user.
-
-
 
 
 ## Table of Contents
@@ -14,6 +12,7 @@ A simple app that allows the user to play tic tac toe against the computer where
 
 
 ## Purpose
+This app was created to learn the basics of AI and how to create a simple AI that can play tic tac toe against the user. I practice using the tkinter library and to practice using functions in Python.
 
 
 ## Technologies and Libraries Used
