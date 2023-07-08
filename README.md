@@ -37,7 +37,7 @@ The GUI will look like this:
 
 <img src="image.png" width="300">
 
-<br>
+
 - To use the application, enter the number where you want to place your X in the input box and click the submit button. 
 - The computer will then place an O in an attempt to win the game. 
 - The game will continue until either the user or the computer wins or the game ends in a tie.
