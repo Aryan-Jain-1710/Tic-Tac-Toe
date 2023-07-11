@@ -34,7 +34,7 @@ The main.py file contains the code for the GUI and the functions that allow the 
 To use the application, run the main.py file. This will open the GUI. 
 The GUI will look like this:
 
-<img src="image.png" width="300">
+<kbd><img src="image.png" width="300"></kbd>
 
 
 - To use the application, enter the number where you want to place your X in the input box and click the submit button. 
